@@ -1,0 +1,13 @@
+
+
+__pycache__/
+.idea/
+
+.DS_Store
+
+settings.py
+
+*.json
+*.sqlite3
+
+*.pyc

@@ -1,0 +1,12 @@
+[Unit]
+Description=Monomer Software gunicorn daemon
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/opt/monomer_software/
+ExecStart=/user/local/bin/gunicorn --bind unix:/run/monomer-django.sock --access-logfile=/var/log/gunicorn/access.log --error-logfile=/var/log/gunicorn/error.log config.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

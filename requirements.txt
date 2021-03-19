@@ -22,7 +22,7 @@ django-nested-inline==0.3.7
 django-redis-cache==1.8.1
 django-taggit==0.23.0
 django-widget-tweaks==1.4.3
-djangorestframework==3.9.2
+djangorestframework==3.11.2
 firebase-admin==2.16.0
 gcloud==0.17.0
 get==1.0.3

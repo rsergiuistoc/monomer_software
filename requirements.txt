@@ -71,5 +71,5 @@ six==1.11.0
 slimit==0.8.1
 soupsieve==1.7.3
 sqlparse==0.2.4
-urllib3==1.23
+urllib3==1.26.5
 webencodings==0.5.1
